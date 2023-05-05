@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sopa de letras</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Dependencias -->
+    <script src="jquery/jquery-3.6.4.min.js"></script>
+    <script src="js/wordfind.js"></script>
+    <script src="js/wordfindgame.js"></script>
+</head>
+
+<body>
+    <!-- Estructura de la sopa de letras-->
+    <h1 class="titulo">SOPA DE LETRAS</h1>
+    <div class="juego">
+        <div id="contenedor"></div>
+        <div id="palabras-sopadeletras"></div>
+    </div>
+    <div class="botones">
+        <button class="boton" id="BTNresolver" value="Resolver sopa de letras">Resolver la Sopa</button>
+        <button class="boton" id="BTNrefresh" value="Reiniciar la sopa de letras">Nueva Sopa</button>
+    </div>
+    <h3>Número de palabras de la sopa</h3>
+    <form class="BTNnumeroPalabras" id="formNumeroPalabras">
+        <input type="submit" value="1" onclick="nPalabras = 1">
+        <input type="submit" value="2" onclick="nPalabras = 2">
+        <input type="submit" value="3" onclick="nPalabras = 3">
+        <input type="submit" value="5" onclick="nPalabras = 5">
+        <input type="submit" value="10" onclick="nPalabras = 10">
+        <input type="submit" value="15" onclick="nPalabras = 15">
+        <input type="submit" value="20" onclick="nPalabras = 20">
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
