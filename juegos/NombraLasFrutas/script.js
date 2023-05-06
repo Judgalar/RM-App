@@ -72,3 +72,5 @@ function checkAnswer()
     }
 }
 
+window.onload(displayFruit())
+

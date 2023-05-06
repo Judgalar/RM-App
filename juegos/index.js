@@ -25,3 +25,11 @@ document.getElementById('puzle').addEventListener('click', () => {
 document.getElementById('frutas').addEventListener('click', () => {
     window.open('NombraLasFrutas/index.html', null, "width=800,height=800,autoHideMenuBar=true");
 })
+
+document.getElementById('encadenadas').addEventListener('click', () => {
+    window.open('PalabrasEncadenadas/index.html', null, "width=800,height=800,autoHideMenuBar=true");
+})
+
+document.getElementById('palabrasTiempo').addEventListener('click', () => {
+    window.open('PalabrasTiempo/index.html', null, "width=800,height=1200,autoHideMenuBar=true");
+})

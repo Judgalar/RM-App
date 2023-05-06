@@ -10,29 +10,30 @@
 <body>   
     <center><button class="reiniciar" onclick="location.reload()">Volver a empezar</button></center>
     <br><br>
-    <div id="images">
-        <div id="drag4" draggable="true" ondragstart="drag(event)" data-container-id="images"></div>
-        <div id="drag5" draggable="true" ondragstart="drag(event)" data-container-id="images"></div>
-        <div id="drag6" draggable="true" ondragstart="drag(event)" data-container-id="images"></div>
-        <div id="drag7" draggable="true" ondragstart="drag(event)" data-container-id="images"></div>
-        <div id="drag8" draggable="true" ondragstart="drag(event)" data-container-id="images"></div>
-        <div id="drag9" draggable="true" ondragstart="drag(event)" data-container-id="images"></div>
-        <div id="drag10" draggable="true" ondragstart="drag(event)" data-container-id="images"></div>
-        <div id="drag11" draggable="true" ondragstart="drag(event)" data-container-id="images"></div>
-        <div id="drag12" draggable="true" ondragstart="drag(event)" data-container-id="images"></div>
+    <div id="images" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div class="drag" id="drag4" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="drag" id="drag5" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="drag" id="drag6" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="drag" id="drag7" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="drag" id="drag8" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="drag" id="drag9" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="drag" id="drag10" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="drag" id="drag11" draggable="true" ondragstart="drag(event)" ></div>
+        <div class="drag" id="drag12" draggable="true" ondragstart="drag(event)" ></div>
     </div>
       
+    <br>
     
     <div id="text">
-        <div id="div1" data-position="drag4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div id="div2" data-position="drag5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div id="div3" data-position="drag6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div id="div4" data-position="drag7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div id="div5" data-position="drag8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div id="div6" data-position="drag9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div id="div7" data-position="drag10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div id="div8" data-position="drag11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-        <div id="div9" data-position="drag12" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     </div>
 
 

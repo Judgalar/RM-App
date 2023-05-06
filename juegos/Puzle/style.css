@@ -38,7 +38,10 @@ body {
   }
   
   #images {
-    width: 100%
+    width: 100%;
+    background-color: #3f3f3f;
+    height: 420px;
+    overflow: auto;
   }
   
   img {
@@ -97,14 +100,18 @@ body {
     background: linear-gradient(to right, blue,green);
   }
 
-  #text > div.shadow {
-    box-shadow: 0 0 10px 7px black;
+.shadow {
+  box-shadow: 0 0 10px 7px black;
+}
+
+.win {
+  box-shadow: 0 0 10px 7px lightgreen;
 }
 
 .reiniciar{
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
-    background-color: crimson;
+    background-color: lightseagreen;
     color: white;
     font-size: 20px;
     cursor: pointer;

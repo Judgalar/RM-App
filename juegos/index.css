@@ -1,3 +1,6 @@
+*{
+  -webkit-user-drag: none;
+}
 body {
     background-color: #edf2fb;
     font-family: Arial, sans-serif;
