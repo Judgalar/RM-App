@@ -2,6 +2,10 @@
   "name": "regalamemoria",
   "version": "1.0.0",
   "description": "",
+  "author": {
+    "name": "Judgalar",
+    "email": "judgalar@gmail.com"
+  },
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,8 +13,14 @@
     "pack" : "electron-builder --dir",
     "dist" : "electron-builder" 
   },
+  "build": {
+    "productName": "RegalaMemoria",
+    "appId": "com.github.judgalarregalamemoria",
+    "linux": {
+      "category": "Game"
+    }
+  },
   "keywords": [],
-  "author": "Judgalar",
   "license": "ISC",
   "devDependencies": {
     "electron": "^24.2.0",
