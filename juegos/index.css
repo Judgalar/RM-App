@@ -1,11 +1,15 @@
 *{
   -webkit-user-drag: none;
 }
+html, body {
+    height:94%; /*both html and body*/
+}
 body {
-    background-color: #edf2fb;
+    background-color: #3c4f65;
     font-family: Arial, sans-serif;
     color: #333;
     line-height: 1.5;
+    height: 100%;
   }
   
   header {
@@ -28,6 +32,7 @@ body {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    min-height: 100%;
   }
   
   h2 {
@@ -54,19 +59,20 @@ body {
   
   a {
     display: block;
-    background-color: #5e7d9a;
+    background-color: lightblue;
     padding: 20px;
-    color: #fff;
+    color: black;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
-    transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     height: 200px;
     width: 250px;
   }
   
   a:hover {
+    color: white;
     background-color: #3c4f65;
   }
   

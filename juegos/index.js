@@ -33,3 +33,7 @@ document.getElementById('encadenadas').addEventListener('click', () => {
 document.getElementById('palabrasTiempo').addEventListener('click', () => {
     window.open('PalabrasTiempo/index.html', null, "width=800,height=1200,autoHideMenuBar=true");
 })
+
+document.getElementById('monedas').addEventListener('click', () => {
+    window.open('Monedas/index.html', null, "width=1000,height=1200,autoHideMenuBar=true");
+})
