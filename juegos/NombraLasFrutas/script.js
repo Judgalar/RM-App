@@ -72,5 +72,5 @@ function checkAnswer()
     }
 }
 
-window.onload(displayFruit())
+window.onload = displayFruit()
 
