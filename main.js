@@ -11,7 +11,7 @@ const createWindow = () => {
         icon: 'logo.png'
     });
 
-    win.loadFile('juegos/index.html');
+    win.loadFile('src/index.html');
 }
 
 app.whenReady().then(() => {
